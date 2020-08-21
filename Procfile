@@ -1,2 +1,2 @@
 Procrelease: ./release-task.sh
-web: java -jar $JAVA_OPTS -Dserver.port=$PORT target/springbcryptteste.jar
+web:java -Dserver.port=$PORT $JAVA_OPTS -jar target/springbcryptteste-0.0.1-SNAPSHOT.jar
